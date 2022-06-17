@@ -1,10 +1,11 @@
 name: JS Actions
 
 on:
-  push:
+  pull_request:
+    types: [labeled]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+# Allows you to run this workflow manually from the Actions tab
+#  workflow_dispatch:
 
 jobs:
   action:
@@ -15,5 +16,7 @@ jobs:
       
       - name: "hello-action"
         uses: ./.github/actions/hello-world
-        with:
-          first-greeting: "Learning lab user"
+
+      - name: ha-ha
+        uses: ./.github/actions/joke-action
+        
