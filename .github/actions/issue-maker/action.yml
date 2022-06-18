@@ -1,6 +1,6 @@
 name: "I have issues"
 
-description: "consume the output of the previous action and create a new issue in the "consume the output of the previous action and create a new issue in the repo"
+description: "consume the output of the previous action and create a new issue in the repo"
 
 inputs:
   joke:
