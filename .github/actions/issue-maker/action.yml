@@ -10,7 +10,7 @@ inputs:
     default: "a joke for you"
     required: true
   repo-token:
-    description: "Token with permission to do repo things
+    description: "Token with permission to do repo things"
 
 
 runs:
